@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/tasks/__tests__/step-definitions/Tasks.web.steps.tsx">
+        <testCase name="Tasks User navigates to Tasks" duration="631"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/tasks/__tests__/step-definitions/Tasks.steps.tsx">
+        <testCase name="Tasks User navigates to Tasks" duration="7788"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/tasks/__tests__/step-definitions/TaskList.steps.tsx">
+        <testCase name="Tasks User navigates to TaskList" duration="10712"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/tasks/__tests__/step-definitions/Task.steps.tsx">
+        <testCase name="Tasks User navigates to Task" duration="11418"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/tasks/__tests__/step-definitions/TaskList.web.steps.tsx">
+        <testCase name="Tasks User navigates to TaskList" duration="256"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/tasks/__tests__/step-definitions/Task.web.steps.tsx">
+        <testCase name="Tasks User navigates to Task" duration="450"/>
+    </file>
+</testExecutions>

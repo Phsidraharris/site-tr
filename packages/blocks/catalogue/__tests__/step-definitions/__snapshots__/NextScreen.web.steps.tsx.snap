@@ -1,0 +1,384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Next Screen User navigates to Next Screen 1`] = `
+<Styled(MuiBox)
+  style={
+    Object {
+      "background": "#FAFAFA",
+    }
+  }
+>
+  <NavigationMenu
+    id=""
+    navigation={
+      Object {
+        "goBack": [MockFunction],
+        "navigate": [MockFunction],
+      }
+    }
+  />
+  <Styled(MuiBox)
+    style={
+      Object {
+        "background": "#FAFAFA",
+        "borderRadius": "8px",
+        "display": "flex",
+        "justifyContent": "center",
+        "margin": "0 auto",
+        "paddingTop": "30px",
+      }
+    }
+  >
+    <Styled(Styled(MuiBox))>
+      <WithStyles(ForwardRef(Typography))
+        style={
+          Object {
+            "color": "#273567",
+            "fontFamily": "Poppins",
+            "fontSize": "30px",
+            "fontWeight": 400,
+            "lineHeight": "40px",
+          }
+        }
+      >
+        List my property
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        style={
+          Object {
+            "color": "#848FAC",
+            "fontFamily": "Poppins",
+            "fontSize": "18px",
+            "fontWeight": 400,
+            "lineHeight": "26px",
+          }
+        }
+      >
+        Enter your all information
+      </WithStyles(ForwardRef(Typography))>
+      <div
+        style={
+          Object {
+            "color": "#273567",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginBottom": "20px",
+            "marginTop": "25px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        >
+          Contact Information
+        </WithStyles(ForwardRef(Typography))>
+      </div>
+      <WithStyles(ForwardRef(Typography))
+        style={
+          Object {
+            "color": "#273567",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginTop": "10px",
+          }
+        }
+      >
+        *Agent name
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(TextField))
+        data-test-id="agent"
+        fullWidth={true}
+        onChange={[Function]}
+        style={
+          Object {
+            "border": "",
+            "borderRadius": "8px",
+            "color": "#273567",
+            "marginTop": "5px",
+            "width": "100%",
+          }
+        }
+        value=""
+        variant="outlined"
+      />
+      <WithStyles(ForwardRef(Typography))
+        style={
+          Object {
+            "color": "#273567",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginTop": "10px",
+          }
+        }
+      >
+        *Address
+      </WithStyles(ForwardRef(Typography))>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "gap": "10px",
+            "marginBottom": "10px",
+            "width": "100%",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(TextField))
+          data-test-id="address"
+          onChange={[Function]}
+          style={
+            Object {
+              "border": "1px solid #FF0404",
+              "borderRadius": "8px",
+              "width": "100%",
+            }
+          }
+          value=""
+          variant="outlined"
+        />
+      </div>
+      <WithStyles(ForwardRef(Typography))
+        style={
+          Object {
+            "color": "#273567",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginTop": "20px",
+          }
+        }
+      >
+        Phone Number
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(TextField))
+        data-test-id="number"
+        onChange={[Function]}
+        style={
+          Object {
+            "border": "",
+            "borderRadius": "8px",
+            "marginTop": "5px",
+            "width": "100%",
+          }
+        }
+        value=""
+        variant="outlined"
+      />
+      <WithStyles(ForwardRef(Typography))
+        style={
+          Object {
+            "color": "#273567",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginTop": "20px",
+          }
+        }
+      >
+        Agency photo
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(TextField))
+        InputProps={
+          Object {
+            "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+              position="end"
+              style={
+                Object {
+                  "position": "absolute",
+                  "right": "16px",
+                  "top": "28px",
+                }
+              }
+            >
+              <input
+                accept="image/*"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+                type="file"
+              />
+              <img
+                onClick={[Function]}
+                src={
+                  Object {
+                    "testUri": "../../../packages/blocks/catalogue/assets/cloud.png",
+                  }
+                }
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+            </WithStyles(ForwardRef(InputAdornment))>,
+            "readOnly": true,
+            "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+              position="start"
+            >
+              
+            </WithStyles(ForwardRef(InputAdornment))>,
+          }
+        }
+        multiline={true}
+        rows={1}
+        style={
+          Object {
+            "marginTop": "5px",
+            "width": "100%",
+          }
+        }
+        variant="outlined"
+      />
+      <Styled(MuiBox)
+        onClick={[Function]}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "end",
+            "marginTop": "30px",
+          }
+        }
+      >
+        <button
+          style={
+            Object {
+              "backgroundColor": "#273567",
+              "borderRadius": "8px",
+              "color": "#FFFFFF",
+              "cursor": "pointer",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "padding": "10px 16px",
+              "textTransform": "none",
+            }
+          }
+        >
+          Save
+        </button>
+      </Styled(MuiBox)>
+    </Styled(Styled(MuiBox))>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Snackbar))
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "top",
+      }
+    }
+    autoHideDuration={5000}
+    onClose={[Function]}
+    open={false}
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": "4px",
+          "color": "#0F172A",
+          "display": "flex",
+          "fontFamily": "Poppins",
+          "fontSize": "16px",
+          "fontWeight": 400,
+          "height": "42px",
+          "lineHeight": "24px",
+          "paddingLeft": "10px",
+          "paddingRight": "10px",
+          "width": "362px",
+        }
+      }
+    >
+      <img
+        src={
+          Object {
+            "testUri": "../../../packages/blocks/catalogue/assets/Icon.png",
+          }
+        }
+        style={
+          Object {
+            "color": "#0F172A",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      />
+      Please fill all the mandatory fields
+    </div>
+  </WithStyles(ForwardRef(Snackbar))>
+  <WithStyles(ForwardRef(Snackbar))
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "top",
+      }
+    }
+    autoHideDuration={5000}
+    onClose={[Function]}
+    open={false}
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": "4px",
+          "color": "#0F172A",
+          "display": "flex",
+          "fontFamily": "Poppins",
+          "fontSize": "16px",
+          "fontWeight": 400,
+          "height": "42px",
+          "lineHeight": "24px",
+          "paddingLeft": "10px",
+          "paddingRight": "10px",
+          "width": "362px",
+        }
+      }
+    >
+      <img
+        src={
+          Object {
+            "testUri": "../../../packages/blocks/catalogue/assets/tick.png",
+          }
+        }
+        style={
+          Object {
+            "color": "#0F172A",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      />
+      Listing Created Successfully
+    </div>
+  </WithStyles(ForwardRef(Snackbar))>
+  <Footer
+    id=""
+  />
+</Styled(MuiBox)>
+`;

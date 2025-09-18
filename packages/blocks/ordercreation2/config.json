@@ -1,0 +1,65 @@
+{
+  "id": "ordercreation2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ordercreation2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Ordercreation2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Ordercreation2": {
+        "file": "Ordercreation2.tsx",
+        "extends": "Ordercreation2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Ordercreation2Controller",
+            "path": "./Ordercreation2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Ordercreation2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Ordercreation2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Ordercreation2": {
+        "file": "Ordercreation2.web.tsx",
+        "extends": "Ordercreation2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Ordercreation2Controller",
+            "path": "./Ordercreation2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Ordercreation2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

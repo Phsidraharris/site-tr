@@ -1,0 +1,43 @@
+
+#hoverableLight:hover{
+    background-color:#FFFFFF !important
+}
+
+#hoverableDark:hover{
+    background-color: #273567 !important
+}
+.transition-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .transition-fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.5s ease; /* Adjust animation duration as needed */
+  }
+ 
+
+#listhover:hover{
+  background-color:#F1F5F9 !important;
+  border-radius: 8px;
+}
+
+#custom-select{
+  box-shadow: none;
+  border-radius: 8px;
+}
+

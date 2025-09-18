@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/forgot-password/__tests__/step-definitions/NewPassword.steps.tsx">
+        <testCase name="NewPassword User navigates to NewPassword" duration="859"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/forgot-password/__tests__/step-definitions/VerificationPass.web.steps.tsx">
+        <testCase name="Verification page Click Resend e-mail link" duration="26"/>
+        <testCase name="Verification page Click Back to Log in link" duration="12"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/forgot-password/__tests__/step-definitions/ForgotPassword.web.steps.tsx">
+        <testCase name="Forgot Password User enters valid email and clicks &apos;Send a recovery link&apos;" duration="41"/>
+        <testCase name="Forgot Password User enters invalid email format and clicks &apos;Send a recovery link&apos;" duration="14"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/forgot-password/__tests__/step-definitions/ForgotPassword.steps.tsx">
+        <testCase name="ForgotPassword User navigates to ForgotPassword" duration="596"/>
+        <testCase name="ForgotPassword User navigates to ForgotPassword with email id" duration="158"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/forgot-password/__tests__/step-definitions/ForgotPasswordOTP.steps.tsx">
+        <testCase name="ForgotPasswordOTP User navigates to ForgotPasswordOTP" duration="556"/>
+        <testCase name="ForgotPasswordOTP User navigates to ForgotPasswordOTP in web" duration="117"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/forgot-password/__tests__/step-definitions/NewPassword.web.steps.tsx">
+        <testCase name="New Password User enters valid email and clicks Send a recovery link" duration="26"/>
+        <testCase name="New Password User enters invalid email format and clicks Send a recovery link" duration="3"/>
+    </file>
+</testExecutions>

@@ -1,0 +1,9 @@
+export const imgPasswordVisible = require("../assets/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+export const bgImage = require("../assets/image_.png");
+export const logoImage = require("../assets/image_(1).png");
+export const cancelIcon = require("../assets/image_.svg");
+export const locationIcon = require("../assets/Group_icon.svg");
+export const arrowIcon = require("../assets/arrow.svg");
+export const uploadIcon = require("../assets/upload.png");
+export const greenTick = require("../assets/greenTick.svg");

@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header User navigates to Header 1`] = `
+<Fragment>
+  <Styled(MuiBox)
+    style={
+      Object {
+        "borderBottom": "1px solid #2735674D",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "paddingBottom": "20px",
+        "paddingLeft": "50px",
+        "paddingRight": "50px",
+        "paddingTop": "20px",
+      }
+    }
+  >
+    <img
+      alt="logo"
+      src={
+        Object {
+          "testUri": "../../../packages/blocks/catalogue/assets/logo.png",
+        }
+      }
+      style={
+        Object {
+          "height": "46px",
+          "width": "129px",
+        }
+      }
+    />
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(Button))
+        id="hoverableDark"
+        style={
+          Object {
+            "backgroundColor": "#141D40",
+            "borderRadius": "8px",
+            "color": "#FFFFFF",
+            "fontFamily": "Poppins",
+            "fontWeight": "bold",
+            "height": "44px",
+            "lineHeight": "24px",
+            "marginRight": "8px",
+            "padding": "10px 16px 10px 16px",
+            "textTransform": "none",
+          }
+        }
+      >
+        List my property
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        id="hoverableLight"
+        style={
+          Object {
+            "backgroundColor": "F4F5F7",
+            "border": "1px solid #273567",
+            "borderRadius": "8px",
+            "boxShadow": "none",
+            "color": "#273567",
+            "fontFamily": "Poppins",
+            "fontWeight": "bold",
+            "height": "44px",
+            "padding": "10px 16px 10px 16px",
+            "textTransform": "none",
+          }
+        }
+        variant="contained"
+      >
+        Log in
+      </WithStyles(ForwardRef(Button))>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    style={
+      Object {
+        "paddingBottom": "20px",
+        "paddingLeft": "50px",
+        "paddingTop": "20px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Link))
+      data-test-id="testid1"
+      href="#"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderBottom": "none",
+          "color": "#848FAC",
+          "fontFamily": "Poppins",
+          "marginRight": "20px",
+          "pointer": "cursor",
+          "textDecoration": "none",
+        }
+      }
+    >
+      Browse Properties
+    </WithStyles(ForwardRef(Link))>
+    <WithStyles(ForwardRef(Link))
+      data-test-id="testid2"
+      href="#"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderBottom": "none",
+          "color": "#848FAC",
+          "fontFamily": "Poppins",
+          "marginRight": "20px",
+          "pointer": "cursor",
+          "textDecoration": "none",
+        }
+      }
+    >
+      Valuation
+    </WithStyles(ForwardRef(Link))>
+    <WithStyles(ForwardRef(Link))
+      data-test-id="testid3"
+      href="#"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderBottom": "none",
+          "color": "#848FAC",
+          "fontFamily": "Poppins",
+          "marginRight": "20px",
+          "pointer": "cursor",
+          "textDecoration": "none",
+        }
+      }
+    >
+      Market Insights
+    </WithStyles(ForwardRef(Link))>
+    <WithStyles(ForwardRef(Link))
+      data-test-id="testid4"
+      href="#"
+      onClick={[Function]}
+      style={
+        Object {
+          "borderBottom": "1px solid #0097CB",
+          "color": "#273567",
+          "fontFamily": "Poppins",
+          "marginRight": "20px",
+          "pointer": "cursor",
+          "textDecoration": "none",
+        }
+      }
+    >
+      About us
+    </WithStyles(ForwardRef(Link))>
+  </Styled(MuiBox)>
+</Fragment>
+`;

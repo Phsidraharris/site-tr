@@ -1,0 +1,65 @@
+{
+  "id": "auctionbidding",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/auctionbidding",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Auctionbidding"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Auctionbidding": {
+        "file": "Auctionbidding.tsx",
+        "extends": "AuctionbiddingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AuctionbiddingController",
+            "path": "./AuctionbiddingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AuctionbiddingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Auctionbidding"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Auctionbidding": {
+        "file": "Auctionbidding.web.tsx",
+        "extends": "AuctionbiddingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AuctionbiddingController",
+            "path": "./AuctionbiddingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AuctionbiddingController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`catalogue User navigates to catalogue 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "flex": 1,
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <FlatList
+          columnWrapperStyle={
+            Object {
+              "flex": 1,
+              "justifyContent": "space-between",
+            }
+          }
+          data={Array []}
+          disableVirtualization={false}
+          extraData={
+            Object {
+              "activeLink": "Browse Properties",
+              "address": "",
+              "agentName": "",
+              "arrayHolder": Array [],
+              "city": "",
+              "description": "",
+              "epcrating": "",
+              "extensiontype": Array [],
+              "inputFieldError": Object {
+                "City": false,
+                "Postcode One": true,
+                "Postcode Two": true,
+                "Property Description": false,
+                "Property Number": true,
+                "Property Price": true,
+                "Property Title": false,
+                "Streen name": false,
+                "keyFeature": false,
+                "porpstatus": false,
+                "propTenure": false,
+                "propType": false,
+                "selectedBathroom": false,
+                "selectedBed": false,
+                "selectedImage": false,
+              },
+              "isBathroomFilled": true,
+              "isBoxOpen": false,
+              "isCityFilled": true,
+              "isDescriptionFilled": true,
+              "isImageBoxOpen": false,
+              "isKeyFilled": true,
+              "isMainImageFilled": true,
+              "isNextButtonDisabled": false,
+              "isPostcodeOneFilled": true,
+              "isPostcodeTwoFilled": true,
+              "isPriceModifierFilled": true,
+              "isPropNumberFilled": true,
+              "isPropPriceFilled": true,
+              "isPropTypeFilled": true,
+              "isPropertyTitleFilled": true,
+              "isSnackbarOpen": false,
+              "isStatusFilled": true,
+              "isStreetFilled": true,
+              "isTenureFilled": true,
+              "isaddressfilled": true,
+              "isagentfilled": true,
+              "isbedFilled": true,
+              "isnumberValid": true,
+              "keyFeature": Array [],
+              "parking": "",
+              "phoneNumber": "",
+              "porpstatus": "",
+              "postcodeOne": "",
+              "postcodeTwo": "",
+              "propDesInfo": false,
+              "propNumber": "",
+              "propPrice": "",
+              "propTenure": "",
+              "propType": "",
+              "propertyTitle": "",
+              "reception": "",
+              "save": false,
+              "selectedAgent": "",
+              "selectedBathroom": "",
+              "selectedBed": "",
+              "selectedButton": 0,
+              "selectedFloorImage": null,
+              "selectedForDeletion": null,
+              "selectedImage": null,
+              "selectedImageFilename": "",
+              "selectedImageSecond": Array [],
+              "selectedImageToDelete": Array [],
+              "selectedImgeEpc": null,
+              "selectedOption": "",
+              "selectedPriceModi": "",
+              "selectedPropStatus": "Available",
+              "streetname": "",
+              "token": "",
+              "tourlink": "",
+              "userLink": "",
+            }
+          }
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={2}
+          onEndReachedThreshold={2}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        />
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`catalogue User navigates to catalogue 2`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "white",
+              "flex": 1,
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <FlatList
+          columnWrapperStyle={
+            Object {
+              "flex": 1,
+              "justifyContent": "space-between",
+            }
+          }
+          data={Array []}
+          disableVirtualization={false}
+          extraData={
+            Object {
+              "activeLink": "Browse Properties",
+              "address": "",
+              "agentName": "",
+              "arrayHolder": Array [],
+              "city": "",
+              "description": "",
+              "epcrating": "",
+              "extensiontype": Array [],
+              "inputFieldError": Object {
+                "City": false,
+                "Postcode One": true,
+                "Postcode Two": true,
+                "Property Description": false,
+                "Property Number": true,
+                "Property Price": true,
+                "Property Title": false,
+                "Streen name": false,
+                "keyFeature": false,
+                "porpstatus": false,
+                "propTenure": false,
+                "propType": false,
+                "selectedBathroom": false,
+                "selectedBed": false,
+                "selectedImage": false,
+              },
+              "isBathroomFilled": true,
+              "isBoxOpen": false,
+              "isCityFilled": true,
+              "isDescriptionFilled": true,
+              "isImageBoxOpen": false,
+              "isKeyFilled": true,
+              "isMainImageFilled": true,
+              "isNextButtonDisabled": false,
+              "isPostcodeOneFilled": true,
+              "isPostcodeTwoFilled": true,
+              "isPriceModifierFilled": true,
+              "isPropNumberFilled": true,
+              "isPropPriceFilled": true,
+              "isPropTypeFilled": true,
+              "isPropertyTitleFilled": true,
+              "isSnackbarOpen": false,
+              "isStatusFilled": true,
+              "isStreetFilled": true,
+              "isTenureFilled": true,
+              "isaddressfilled": true,
+              "isagentfilled": true,
+              "isbedFilled": true,
+              "isnumberValid": true,
+              "keyFeature": Array [],
+              "parking": "",
+              "phoneNumber": "",
+              "porpstatus": "",
+              "postcodeOne": "",
+              "postcodeTwo": "",
+              "propDesInfo": false,
+              "propNumber": "",
+              "propPrice": "",
+              "propTenure": "",
+              "propType": "",
+              "propertyTitle": "",
+              "reception": "",
+              "save": false,
+              "selectedAgent": "",
+              "selectedBathroom": "",
+              "selectedBed": "",
+              "selectedButton": 0,
+              "selectedFloorImage": null,
+              "selectedForDeletion": null,
+              "selectedImage": null,
+              "selectedImageFilename": "",
+              "selectedImageSecond": Array [],
+              "selectedImageToDelete": Array [],
+              "selectedImgeEpc": null,
+              "selectedOption": "",
+              "selectedPriceModi": "",
+              "selectedPropStatus": "Available",
+              "streetname": "",
+              "token": "",
+              "tourlink": "",
+              "userLink": "",
+            }
+          }
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={2}
+          onEndReachedThreshold={2}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        />
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;

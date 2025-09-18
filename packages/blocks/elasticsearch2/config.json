@@ -1,0 +1,65 @@
+{
+  "id": "elasticsearch2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/elasticsearch2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Elasticsearch2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Elasticsearch2": {
+        "file": "Elasticsearch2.tsx",
+        "extends": "Elasticsearch2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Elasticsearch2Controller",
+            "path": "./Elasticsearch2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Elasticsearch2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Elasticsearch2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Elasticsearch2": {
+        "file": "Elasticsearch2.web.tsx",
+        "extends": "Elasticsearch2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Elasticsearch2Controller",
+            "path": "./Elasticsearch2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Elasticsearch2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

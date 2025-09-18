@@ -1,0 +1,3212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List property User navigates to list my property 1`] = `
+<Styled(MuiBox)
+  style={
+    Object {
+      "background": "#FAFAFA",
+    }
+  }
+>
+  <NavigationMenu
+    id=""
+    navigation={
+      Object {
+        "goBack": [MockFunction],
+        "navigate": [MockFunction] {
+          "calls": Array [
+            Array [
+              "NextScreen",
+            ],
+            Array [
+              "NextScreen",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+  />
+  <Styled(MuiBox)
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FAFAFA",
+          "borderRadius": "8px",
+          "margin": "0 auto",
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Styled(Styled(MuiBox))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "30px",
+              "fontWeight": 400,
+              "lineHeight": "40px",
+            }
+          }
+        >
+          List my property
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#848FAC",
+              "fontFamily": "Poppins",
+              "fontSize": "18px",
+              "fontWeight": 400,
+              "lineHeight": "26px",
+            }
+          }
+        >
+          Enter your all information
+        </WithStyles(ForwardRef(Typography))>
+        <div
+          style={
+            Object {
+              "color": "#273567",
+              "display": "flex",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "25px",
+            }
+          }
+        >
+          <div
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "cursor": "pointer",
+                "display": "flex",
+                "position": "relative",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Typography))
+              style={
+                Object {
+                  "marginRight": "5px",
+                }
+              }
+            >
+              *Property title
+            </WithStyles(ForwardRef(Typography))>
+            <img
+              alt="Circle"
+              src={
+                Object {
+                  "testUri": "../../../packages/blocks/catalogue/assets/circle.png",
+                }
+              }
+            />
+            <Styled(Styled(MuiBox))
+              style={
+                Object {
+                  "background": "#fff",
+                  "border": "1px solid #94A3B8",
+                  "borderRadius": "8px",
+                  "bottom": "25px",
+                  "color": "#94A3B8",
+                  "fontFamily": "Poppins",
+                  "padding": "10px",
+                  "position": "absolute",
+                  "right": "5px",
+                  "zIndex": 1000,
+                }
+              }
+            >
+              Enter a short and descriptive title for the property listing
+            </Styled(Styled(MuiBox))>
+          </div>
+        </div>
+        <WithStyles(ForwardRef(TextField))
+          data-test-id="title"
+          fullWidth={true}
+          multiline={true}
+          name="Property Title"
+          onChange={[Function]}
+          placeholder="Enter a short and descriptive title for the property"
+          rows={4}
+          style={
+            Object {
+              "border": "",
+              "borderRadius": "8px",
+              "color": "#273567",
+              "marginTop": "5px",
+              "width": "100%",
+            }
+          }
+          value="New Title"
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "10px",
+            }
+          }
+        >
+          *Postcode
+        </WithStyles(ForwardRef(Typography))>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "gap": "10px",
+              "marginBottom": "10px",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(TextField))
+              data-test-id="postcodeOne"
+              name="Postcode One"
+              onChange={[Function]}
+              style={
+                Object {
+                  "border": "",
+                  "borderRadius": "8px",
+                  "width": "100%",
+                }
+              }
+              value="New Title"
+              variant="outlined"
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(TextField))
+              data-test-id="postcodeTwo"
+              name="Postcode Two"
+              onChange={[Function]}
+              style={
+                Object {
+                  "border": "",
+                  "borderRadius": "8px",
+                  "width": "100%",
+                }
+              }
+              value="New Title"
+              variant="outlined"
+            />
+          </div>
+        </div>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          Property address
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Property number
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(TextField))
+          data-test-id="number"
+          name="Property Number"
+          onChange={[Function]}
+          style={
+            Object {
+              "border": "",
+              "borderRadius": "8px",
+              "marginTop": "5px",
+              "width": "100%",
+            }
+          }
+          value="New Title"
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Street name
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(TextField))
+          data-test-id="street"
+          name="Streen name"
+          onChange={[Function]}
+          style={
+            Object {
+              "border": "",
+              "borderRadius": "8px",
+              "marginTop": "5px",
+              "width": "100%",
+            }
+          }
+          value="New Title"
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *City
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(TextField))
+          data-test-id="city"
+          name="City"
+          onChange={[Function]}
+          style={
+            Object {
+              "border": "",
+              "borderRadius": "8px",
+              "marginTop": "5px",
+              "width": "100%",
+            }
+          }
+          type="text"
+          value="New Title"
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Property status
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "maxHeight": 398,
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            data-test-id="status"
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="1234567"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="Available"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Available"
+            >
+              Available
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Under Offer"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Under Offer"
+            >
+              Under Offer
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Sold STC"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Sold STC"
+            >
+              Sold STC
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Sold"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Sold"
+            >
+              Sold
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Property price(£)
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(TextField))
+          data-test-id="price"
+          name="Property Price"
+          onChange={[Function]}
+          style={
+            Object {
+              "border": "1px solid #FF0404",
+              "borderRadius": "8px",
+              "marginTop": "5px",
+              "width": "100%",
+            }
+          }
+          value=""
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          Price Modifier
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "maxHeight": 398,
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            data-test-id="first"
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="1234567"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="Equity loan"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Equity loan"
+            >
+              Equity loan
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Fixed Price"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Fixed Price"
+            >
+              Fixed Price
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="From"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="From"
+            >
+              From
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Guide Price"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Guide Price"
+            >
+              Guide Price
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Offers"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Offers"
+            >
+              Offers
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <div
+          style={
+            Object {
+              "color": "#273567",
+              "display": "flex",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <div
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "cursor": "pointer",
+                "display": "flex",
+                "position": "relative",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Typography))
+              style={
+                Object {
+                  "marginRight": "5px",
+                }
+              }
+            >
+              *Property Images (main image)
+            </WithStyles(ForwardRef(Typography))>
+            <img
+              src={
+                Object {
+                  "testUri": "../../../packages/blocks/catalogue/assets/circle.png",
+                }
+              }
+            />
+            <div
+              style={
+                Object {
+                  "background": "#fff",
+                  "border": "1px solid #94A3B8",
+                  "borderRadius": "8px",
+                  "bottom": "25px",
+                  "color": "#94A3B8",
+                  "fontFamily": "Poppins",
+                  "padding": "10px",
+                  "position": "absolute",
+                  "right": "5px",
+                  "width": "284px",
+                  "zIndex": 1000,
+                }
+              }
+            >
+              Upload multiple images and videos of the property. Designate one image as the main image, which will be displayed prominently, and the rest will be shown as smaller images
+            </div>
+          </div>
+        </div>
+        <div>
+          <WithStyles(ForwardRef(TextField))
+            InputProps={
+              Object {
+                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+                  position="end"
+                  style={
+                    Object {
+                      "position": "absolute",
+                      "right": "16px",
+                      "top": "30px",
+                    }
+                  }
+                >
+                  <input
+                    accept="image/*"
+                    data-test-id="testid123"
+                    onChange={[Function]}
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                    type="file"
+                  />
+                  <img
+                    onClick={[Function]}
+                    src={
+                      Object {
+                        "testUri": "../../../packages/blocks/catalogue/assets/delete.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  />
+                </WithStyles(ForwardRef(InputAdornment))>,
+                "readOnly": true,
+                "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+                  position="start"
+                >
+                  <img
+                    alt="Selected Image"
+                    src="udfufff"
+                    style={
+                      Object {
+                        "borderRadius": "10px",
+                        "maxHeight": "138px",
+                        "width": "180px",
+                      }
+                    }
+                  />
+                </WithStyles(ForwardRef(InputAdornment))>,
+              }
+            }
+            multiline={true}
+            rows={6}
+            style={
+              Object {
+                "border": "",
+                "borderRadius": "8px",
+                "marginTop": "5px",
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+            variant="outlined"
+          />
+        </div>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          Other Images and Videos
+        </WithStyles(ForwardRef(Typography))>
+        <div>
+          <WithStyles(ForwardRef(TextField))
+            InputProps={
+              Object {
+                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+                  position="end"
+                  style={
+                    Object {
+                      "display": "flex",
+                      "position": "absolute",
+                      "right": "16px",
+                    }
+                  }
+                >
+                  <input
+                    accept="image/*, video/mp4"
+                    data-test-id="file"
+                    onChange={[Function]}
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                    type="file"
+                  />
+                  <img
+                    onClick={[Function]}
+                    src={
+                      Object {
+                        "testUri": "../../../packages/blocks/catalogue/assets/imgicon.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  />
+                </WithStyles(ForwardRef(InputAdornment))>,
+                "readOnly": true,
+                "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+                  position="start"
+                >
+                  <Styled(Styled(MuiBox))>
+                    <div
+                      style={
+                        Object {
+                          "position": "relative",
+                        }
+                      }
+                    >
+                      <img
+                        alt="Selected Image"
+                        data-test-id="mp4test23"
+                        onClick={[Function]}
+                        src="blob:https://localhost:3000/a8e0d6e0-174b-4520-9c59-f39fd7b3dff7"
+                        style={
+                          Object {
+                            "borderRadius": "10px",
+                            "cursor": "pointer",
+                            "filter": "none",
+                            "height": "138px",
+                            "marginRight": "10px",
+                            "width": "180px",
+                          }
+                        }
+                      />
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "position": "relative",
+                        }
+                      }
+                    >
+                      <img
+                        alt="Selected Image"
+                        data-test-id="mp4test23"
+                        onClick={[Function]}
+                        src="blob:https://localhost:3000/a8e0d6e0-174b-4520-9c59-f39fd7b3dff7"
+                        style={
+                          Object {
+                            "borderRadius": "10px",
+                            "cursor": "pointer",
+                            "filter": "none",
+                            "height": "138px",
+                            "marginRight": "10px",
+                            "width": "180px",
+                          }
+                        }
+                      />
+                    </div>
+                  </Styled(Styled(MuiBox))>
+                  <div
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "right": "22px",
+                        "top": "20px",
+                      }
+                    }
+                  >
+                    <img
+                      data-test-id="deletTest"
+                      onClick={[Function]}
+                      src={
+                        Object {
+                          "testUri": "../../../packages/blocks/catalogue/assets/delete.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                        }
+                      }
+                    />
+                  </div>
+                </WithStyles(ForwardRef(InputAdornment))>,
+              }
+            }
+            multiline={true}
+            rows={6}
+            style={
+              Object {
+                "marginTop": "5px",
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+            variant="outlined"
+          />
+        </div>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Key features
+        </WithStyles(ForwardRef(Typography))>
+        <div>
+          <WithStyles(ForwardRef(FormControl))
+            fullWidth={true}
+          >
+            <WithStyles(ForwardRef(Select))
+              IconComponent={
+                Object {
+                  "$$typeof": Symbol(react.memo),
+                  "compare": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  },
+                }
+              }
+              MenuProps={
+                Object {
+                  "MenuListProps": Object {
+                    "style": Object {
+                      "maxHeight": 398,
+                      "padding": "10px",
+                    },
+                  },
+                  "anchorOrigin": Object {
+                    "horizontal": "left",
+                    "vertical": "bottom",
+                  },
+                  "getContentAnchorEl": null,
+                }
+              }
+              fullWidth={true}
+              multiple={true}
+              onChange={[Function]}
+              renderValue={[Function]}
+              style={
+                Object {
+                  "border": "1px solid #FF0404",
+                  "color": "#1E1E1E",
+                  "fontFamily": "Poppins",
+                  "fontSize": "16px",
+                  "fontWeight": 400,
+                  "lineHeight": "24px",
+                }
+              }
+              value=""
+              variant="outlined"
+            >
+              <WithStyles(ForwardRef(MenuItem))
+                key="Conservatory"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Conservatory"
+              >
+                Conservatory
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="Basement"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Basement"
+              >
+                Basement
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="Loft conversion"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Loft conversion"
+              >
+                Loft conversion
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="Balcony"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Balcony"
+              >
+                Balcony
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="Swimming Pool"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Swimming Pool"
+              >
+                Swimming Pool
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="Fireplace"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Fireplace"
+              >
+                Fireplace
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="walk in closet"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="walk in closet"
+              >
+                walk in closet
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="Garden"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Garden"
+              >
+                Garden
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="home office/study"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="home office/study"
+              >
+                home office/study
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="wine cellar"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="wine cellar"
+              >
+                wine cellar
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="gym/exercise room"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="gym/exercise room"
+              >
+                gym/exercise room
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="media room/theater"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="media room/theater"
+              >
+                media room/theater
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="smart home feature"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="smart home feature"
+              >
+                smart home feature
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="solar panels"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="solar panels"
+              >
+                solar panels
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="disabled access feature"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="disabled access feature"
+              >
+                disabled access feature
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="security system"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="security system"
+              >
+                security system
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="sauna/steam room"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="sauna/steam room"
+              >
+                sauna/steam room
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="Jacuzzi/hot tun"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="Jacuzzi/hot tun"
+              >
+                Jacuzzi/hot tun
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="guest house/in-law suite"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="guest house/in-law suite"
+              >
+                guest house/in-law suite
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="deck-patio"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="deck-patio"
+              >
+                deck-patio
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="waterfront view"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="waterfront view"
+              >
+                waterfront view
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="mountain view"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="mountain view"
+              >
+                mountain view
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="city skyline view"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="city skyline view"
+              >
+                city skyline view
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="high celling"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="high celling"
+              >
+                high celling
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="harwood floors"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="harwood floors"
+              >
+                harwood floors
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="crown molding"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="crown molding"
+              >
+                crown molding
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="skylights"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="skylights"
+              >
+                skylights
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="vaulted celling"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="vaulted celling"
+              >
+                vaulted celling
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="bay windows"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="bay windows"
+              >
+                bay windows
+              </WithStyles(ForwardRef(MenuItem))>
+              <WithStyles(ForwardRef(MenuItem))
+                key="french doors"
+                style={
+                  Object {
+                    "color": "#0F172A",
+                    "fontFamily": "Poppins",
+                    "fontSize": "14px",
+                    "fontWeight": 400,
+                    "lineHeight": "22px",
+                  }
+                }
+                value="french doors"
+              >
+                french doors
+              </WithStyles(ForwardRef(MenuItem))>
+            </WithStyles(ForwardRef(Select))>
+          </WithStyles(ForwardRef(FormControl))>
+        </div>
+        <div
+          style={
+            Object {
+              "color": "#273567",
+              "display": "flex",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <div
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "cursor": "pointer",
+                "display": "flex",
+                "position": "relative",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Typography))
+              style={
+                Object {
+                  "marginRight": "5px",
+                }
+              }
+            >
+              *Property description
+            </WithStyles(ForwardRef(Typography))>
+            <img
+              src={
+                Object {
+                  "testUri": "../../../packages/blocks/catalogue/assets/circle.png",
+                }
+              }
+            />
+            <Styled(Styled(MuiBox))
+              style={
+                Object {
+                  "background": "#fff",
+                  "border": "1px solid #94A3B8",
+                  "borderRadius": "8px",
+                  "bottom": "25px",
+                  "color": "#94A3B8",
+                  "fontFamily": "Poppins",
+                  "padding": "10px",
+                  "position": "absolute",
+                  "right": "5px",
+                  "zIndex": 1000,
+                }
+              }
+            >
+              Provide a detailed description of the property using free text. Highlight its unique features, amenities, and any other relevant information
+            </Styled(Styled(MuiBox))>
+          </div>
+        </div>
+        <WithStyles(ForwardRef(TextField))
+          fullWidth={true}
+          multiline={true}
+          name="Property Description"
+          onChange={[Function]}
+          rows={9}
+          style={
+            Object {
+              "border": "1px solid #FF0404",
+              "borderRadius": "8px",
+              "marginTop": "5px",
+              "width": "100%",
+            }
+          }
+          value=""
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Number of bedrooms
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "maxHeight": 398,
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "border": "",
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="test1"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="1"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="1"
+            >
+              1
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="2"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="2"
+            >
+              2
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="3"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="3"
+            >
+              3
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="4"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="4"
+            >
+              4
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="5"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="5"
+            >
+              5
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="6"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="6"
+            >
+              6
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="7"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="7"
+            >
+              7
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="8"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="8"
+            >
+              8
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="9"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="9"
+            >
+              9
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="10"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="10"
+            >
+              10
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Number of bathrooms
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "borderRadius": "10px",
+                    "maxHeight": 398,
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "border": "",
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="test1"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="1"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="1"
+            >
+              1
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="2"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="2"
+            >
+              2
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="3"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="3"
+            >
+              3
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="4"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="4"
+            >
+              4
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="5"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="5"
+            >
+              5
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="6"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="6"
+            >
+              6
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="7"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="7"
+            >
+              7
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="8"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="8"
+            >
+              8
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="9"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="9"
+            >
+              9
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="10"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="10"
+            >
+              10
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Property type
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "borderRadius": "10px",
+                    "maxHeight": 398,
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "border": "",
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="test1"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="Detached bungalow"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Detached bungalow"
+            >
+              Detached bungalow
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="End terrace house"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="End terrace house"
+            >
+              End terrace house
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Equestrian property"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Equestrian property"
+            >
+              Equestrian property
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Farm, Farmhouse"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Farm, Farmhouse"
+            >
+              Farm, Farmhouse
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Flat"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Flat"
+            >
+              Flat
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Land"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Land"
+            >
+              Land
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Link-detached house"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Link-detached house"
+            >
+              Link-detached house
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Marionette"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Marionette"
+            >
+              Marionette
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Mews house"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Mews house"
+            >
+              Mews house
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Mobile/park home"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Mobile/park home"
+            >
+              Mobile/park home
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Parking/garage"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Parking/garage"
+            >
+              Parking/garage
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Studio"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Studio"
+            >
+              Studio
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Semi-detached house"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Semi-detached house"
+            >
+              Semi-detached house
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Terraced house"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Terraced house"
+            >
+              Terraced house
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Apartment"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Apartment"
+            >
+              Apartment
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Terraced bungalow"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Terraced bungalow"
+            >
+              Terraced bungalow
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Town house"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Town house"
+            >
+              Town house
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Houseboat"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Houseboat"
+            >
+              Houseboat
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Lodge"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Lodge"
+            >
+              Lodge
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Property tenure
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "border": "",
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="test2"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="Freehold"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Freehold"
+            >
+              Freehold
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Leasehold"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Leasehold"
+            >
+              Leasehold
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Share of freehold"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Share of freehold"
+            >
+              Share of freehold
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Commonhold"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Commonhold"
+            >
+              Commonhold
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          Reception Rooms
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="1234567"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="1"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="1"
+            >
+              1
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="2"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="2"
+            >
+              2
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="3"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="3"
+            >
+              3
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="4"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="4"
+            >
+              4
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="5"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="5"
+            >
+              5
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="6"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="6"
+            >
+              6
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="7"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="7"
+            >
+              7
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="8"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="8"
+            >
+              8
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="9"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="9"
+            >
+              9
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="10"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="10"
+            >
+              10
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Parking availability
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="test3"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="No Parking available"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="No Parking available"
+            >
+              No Parking available
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="On Street Parking"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="On Street Parking"
+            >
+              On Street Parking
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Off Street Parking"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Off Street Parking"
+            >
+              Off Street Parking
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Garage"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Garage"
+            >
+              Garage
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Driveway"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Driveway"
+            >
+              Driveway
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          Floor plans
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(TextField))
+          InputProps={
+            Object {
+              "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+                position="end"
+                style={
+                  Object {
+                    "position": "absolute",
+                    "right": "16px",
+                    "top": "28px",
+                  }
+                }
+              >
+                <input
+                  accept="image/*"
+                  onChange={[Function]}
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                  type="file"
+                />
+                <img
+                  onClick={[Function]}
+                  src={
+                    Object {
+                      "testUri": "../../../packages/blocks/catalogue/assets/cloud.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+              </WithStyles(ForwardRef(InputAdornment))>,
+              "readOnly": true,
+              "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+                position="start"
+              />,
+            }
+          }
+          multiline={true}
+          rows={1}
+          style={
+            Object {
+              "marginTop": "5px",
+              "position": "relative",
+              "width": "100%",
+            }
+          }
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          Energy Performance Certificate rating (Upload File)
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(TextField))
+          InputProps={
+            Object {
+              "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+                position="end"
+                style={
+                  Object {
+                    "position": "absolute",
+                    "right": "16px",
+                    "top": "28px",
+                  }
+                }
+              >
+                <input
+                  accept="image/*"
+                  onChange={[Function]}
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                  type="file"
+                />
+                <img
+                  onClick={[Function]}
+                  src={
+                    Object {
+                      "testUri": "../../../packages/blocks/catalogue/assets/cloud.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+              </WithStyles(ForwardRef(InputAdornment))>,
+              "readOnly": true,
+              "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+                position="start"
+              />,
+            }
+          }
+          multiline={true}
+          rows={1}
+          style={
+            Object {
+              "marginTop": "5px",
+              "position": "relative",
+              "width": "100%",
+            }
+          }
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          Virtual tour URL
+        </WithStyles(ForwardRef(Typography))>
+        <Styled(WithStyles(ForwardRef(TextField)))
+          InputProps={
+            Object {
+              "style": Object {
+                "color": "#0097CB",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 500,
+              },
+            }
+          }
+          style={
+            Object {
+              "marginTop": "5px",
+              "width": "100%",
+            }
+          }
+          value=""
+          variant="outlined"
+        />
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "color": "#273567",
+              "fontFamily": "Poppins",
+              "fontSize": "16px",
+              "fontWeight": 400,
+              "lineHeight": "24px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          *Property status
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(FormControl))
+          fullWidth={true}
+        >
+          <WithStyles(ForwardRef(Select))
+            IconComponent={
+              Object {
+                "$$typeof": Symbol(react.memo),
+                "compare": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                },
+              }
+            }
+            MenuProps={
+              Object {
+                "MenuListProps": Object {
+                  "style": Object {
+                    "padding": "10px",
+                  },
+                },
+                "anchorOrigin": Object {
+                  "horizontal": "left",
+                  "vertical": "bottom",
+                },
+                "getContentAnchorEl": null,
+              }
+            }
+            fullWidth={true}
+            onChange={[Function]}
+            style={
+              Object {
+                "border": "",
+                "color": "#1E1E1E",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+              }
+            }
+            value="test5"
+            variant="outlined"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              key="Online"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Online"
+            >
+              Online
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              key="Offline"
+              style={
+                Object {
+                  "color": "#0F172A",
+                  "fontFamily": "Poppins",
+                  "fontSize": "14px",
+                  "fontWeight": 400,
+                  "lineHeight": "22px",
+                }
+              }
+              value="Offline"
+            >
+              Offline
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          style={
+            Object {
+              "marginTop": "30px",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            data-test-id="option"
+            item={true}
+            onClick={[Function]}
+            sm={4}
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+            xs={12}
+          >
+            <img
+              alt="Radio"
+              src={
+                Object {
+                  "testUri": "../../../packages/blocks/catalogue/assets/radiouncheck.png",
+                }
+              }
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "height": "20px",
+                  "width": "20px",
+                }
+              }
+            />
+            <WithStyles(ForwardRef(Typography))
+              style={
+                Object {
+                  "color": "#273567",
+                  "fontFamily": "Poppins",
+                  "fontSize": "16px",
+                  "fontWeight": 400,
+                  "lineHeight": "20px",
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              Retirement Home
+            </WithStyles(ForwardRef(Typography))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            data-test-id="option2"
+            item={true}
+            onClick={[Function]}
+            sm={4}
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+            xs={12}
+          >
+            <img
+              alt="Radio"
+              src={
+                Object {
+                  "testUri": "../../../packages/blocks/catalogue/assets/radiouncheck.png",
+                }
+              }
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "height": "20px",
+                  "width": "20px",
+                }
+              }
+            />
+            <WithStyles(ForwardRef(Typography))
+              style={
+                Object {
+                  "color": "#273567",
+                  "fontFamily": "Poppins",
+                  "fontSize": "16px",
+                  "fontWeight": 400,
+                  "lineHeight": "20px",
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              New Build
+            </WithStyles(ForwardRef(Typography))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            data-test-id="option3"
+            item={true}
+            onClick={[Function]}
+            sm={4}
+            style={
+              Object {
+                "display": "flex",
+              }
+            }
+            xs={12}
+          >
+            <img
+              alt="Radio"
+              src={
+                Object {
+                  "testUri": "../../../packages/blocks/catalogue/assets/radioCheck.png",
+                }
+              }
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "height": "20px",
+                  "width": "20px",
+                }
+              }
+            />
+            <WithStyles(ForwardRef(Typography))
+              style={
+                Object {
+                  "color": "#273567",
+                  "fontFamily": "Poppins",
+                  "fontSize": "16px",
+                  "fontWeight": 400,
+                  "lineHeight": "20px",
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              Shared ownership
+            </WithStyles(ForwardRef(Typography))>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <Styled(MuiBox)
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "end",
+              "marginTop": "30px",
+            }
+          }
+        >
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#CCCCCC",
+                "borderRadius": "8px",
+                "color": "#FFFFFF",
+                "cursor": "pointer",
+                "fontFamily": "Poppins",
+                "fontSize": "16px",
+                "fontWeight": 400,
+                "lineHeight": "24px",
+                "padding": "10px 16px",
+                "textTransform": "none",
+              }
+            }
+          >
+            Next 
+            <span
+              style={
+                Object {
+                  "marginLeft": "5px",
+                }
+              }
+            >
+              <img
+                src={
+                  Object {
+                    "testUri": "../../../packages/blocks/catalogue/assets/nextarrow.png",
+                  }
+                }
+              />
+            </span>
+          </button>
+        </Styled(MuiBox)>
+      </Styled(Styled(MuiBox))>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Footer
+    id=""
+  />
+  <WithStyles(ForwardRef(Snackbar))
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "top",
+      }
+    }
+    autoHideDuration={5000}
+    onClose={[Function]}
+    open={true}
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": "4px",
+          "color": "#0F172A",
+          "display": "flex",
+          "fontFamily": "Poppins",
+          "fontSize": "16px",
+          "fontWeight": 400,
+          "height": "42px",
+          "lineHeight": "24px",
+          "paddingLeft": "10px",
+          "paddingRight": "10px",
+          "width": "362px",
+        }
+      }
+    >
+      <img
+        src={
+          Object {
+            "testUri": "../../../packages/blocks/catalogue/assets/Icon.png",
+          }
+        }
+        style={
+          Object {
+            "color": "#0F172A",
+            "fontFamily": "Poppins",
+            "fontSize": "16px",
+            "fontWeight": 400,
+            "lineHeight": "24px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      />
+      Please fill all the mandatory fields
+    </div>
+  </WithStyles(ForwardRef(Snackbar))>
+</Styled(MuiBox)>
+`;

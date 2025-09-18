@@ -1,0 +1,16 @@
+export const imgPasswordVisible = require("../assets/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+export const mainImg = require("../assets/mainImg.png");
+export const circle = require("../assets/group_circle.png");
+export const selwhite = require("../assets/sellwhite.png");
+export const selblue = require("../assets/sellblue.png");
+export const buywhite = require("../assets/buyerwhite.png");
+export const buyblue = require("../assets/buyerblue.png");
+export const agentwhite = require("../assets/agentwhite.png");
+export const agentblue = require("../assets/agentblue.png");
+export const soliwhite = require("../assets/soliwhite.png");
+export const soliblue = require("../assets/soliblue.png");
+export const imglogo = require("../assets/imglogo.png");
+export const activecircle = require("../assets/button_login.png");
+export const inactivecircle = require("../assets/button_signup.png");
+export const crossicon = require("../assets/Icon.png");

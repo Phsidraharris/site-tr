@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/chat/__tests__/step-definitions/chat.web.steps.tsx">
+        <testCase name="Chat User navigates to Chat" duration="197"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/chat/__tests__/step-definitions/chat.steps.tsx">
+        <testCase name="Chat User navigates to Chat" duration="1015"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/chat/__tests__/step-definitions/ChatView.steps.tsx">
+        <testCase name="ChatView User navigates to ChatView" duration="1186"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/astxio-331239-react/src/packages/blocks/chat/__tests__/step-definitions/ChatView.web.steps.tsx">
+        <testCase name="ChatView User navigates to ChatView" duration="322"/>
+    </file>
+</testExecutions>

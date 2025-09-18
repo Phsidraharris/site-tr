@@ -1,0 +1,9 @@
+export const image = require("../assets/image.png");
+export const logo = require("../assets/logo.png");
+export const bed = require("../assets/bed.png");
+export const land = require("../assets/land.png");
+export const location = require("../assets/location.png");
+export const couch = require("../assets/couch.png");
+export const bathroom = require("../assets/bathroom.png");
+export const menu = require("../assets/menu.png");
+export const greenTick = require("../assets/greenTick.svg");
