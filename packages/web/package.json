@@ -38,7 +38,7 @@
     "start": "concurrently \"npm run compile -- -w --incremental\" \"HTTPS=true npm run _start\"",
     "windows_start": "concurrently \"npm run compile -- -w --incremental\" \"npm run _start\"",
     "_start": "react-app-rewired start",
-    "prebuild": "npm run compile",
+    "prebuild": "npm run configDeps",
     "build": "react-app-rewired build",
     "pretest": "npm run compile",
     "test": "react-app-rewired test",

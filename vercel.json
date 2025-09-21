@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "yarn install && cd packages/web && NODE_OPTIONS=\"--openssl-legacy-provider\" npm run build",
+  "buildCommand": "yarn workspace web build",
   "outputDirectory": "packages/web/build",
   "installCommand": "yarn install",
   "framework": "create-react-app",

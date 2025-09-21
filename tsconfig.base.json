@@ -15,8 +15,10 @@
     "jsx": "preserve",
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "sourceMap": true,
     "strictPropertyInitialization": false,
-    "strict": true
+    "strict": true,
+    "types": []
   }
 }
