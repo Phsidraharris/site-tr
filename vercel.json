@@ -2,7 +2,7 @@
   "version": 2,
   "buildCommand": "yarn install && cd packages/web && NODE_OPTIONS=\"--openssl-legacy-provider\" npm run build",
   "outputDirectory": "packages/web/build",
-  "installCommand": "yarn install --frozen-lockfile",
+  "installCommand": "yarn install",
   "framework": "create-react-app",
   "env": {
     "NODE_OPTIONS": "--openssl-legacy-provider",
