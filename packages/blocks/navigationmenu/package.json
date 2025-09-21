@@ -16,8 +16,8 @@
     ]
   },
   "resolutions": {
-    "@types/react": "file:../core/node_modules/@types/react",
-    "@types/react-native": "file:../core/node_modules/@types/react-native"
+    "@types/react": "16.9.11",
+    "@types/react-native": "0.60.22"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^3.0.1",
