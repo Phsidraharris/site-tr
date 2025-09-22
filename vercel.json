@@ -1,5 +1,5 @@
 {
-  "buildCommand": "yarn install && cd packages/web && NODE_OPTIONS=--openssl-legacy-provider npm run build",
+  "buildCommand": "./build-web.sh",
   "outputDirectory": "packages/web/build",
   "installCommand": null
 }
