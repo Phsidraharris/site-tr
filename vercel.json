@@ -1,5 +1,5 @@
 {
-  "buildCommand": "yarn install && yarn workspace web build",
-  "outputDirectory": "packages/web/build",
+  "buildCommand": "yarn install && yarn workspace web build && cp -r packages/web/build ./build",
+  "outputDirectory": "build",
   "installCommand": null
 }
