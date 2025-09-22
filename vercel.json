@@ -1,8 +1,5 @@
 {
   "buildCommand": "yarn install && yarn workspace web build",
   "outputDirectory": "packages/web/build",
-  "installCommand": null,
-  "env": {
-    "NODE_OPTIONS": "--openssl-legacy-provider"
-  }
+  "installCommand": null
 }
