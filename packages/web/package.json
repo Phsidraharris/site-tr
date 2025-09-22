@@ -40,6 +40,7 @@
     "_start": "react-app-rewired start",
     "prebuild": "npm run configDeps",
     "build": "react-app-rewired build",
+    "vercel-build": "npm run configDeps && react-app-rewired build",
     "pretest": "npm run compile",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",

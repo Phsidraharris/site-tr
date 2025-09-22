@@ -1,17 +1,8 @@
 {
-  "version": 2,
-  "buildCommand": "yarn workspace web build",
+  "buildCommand": "yarn install && yarn workspace web build",
   "outputDirectory": "packages/web/build",
-  "installCommand": "yarn install",
-  "framework": "create-react-app",
+  "installCommand": null,
   "env": {
-    "NODE_OPTIONS": "--openssl-legacy-provider",
-    "REACT_APP_DEBUG": "true"
-  },
-  "build": {
-    "env": {
-      "NODE_OPTIONS": "--openssl-legacy-provider",
-      "REACT_APP_DEBUG": "true"
-    }
+    "NODE_OPTIONS": "--openssl-legacy-provider"
   }
 }
