@@ -6,15 +6,11 @@
       "@types",
       "../../node_modules/@types"
     ],
-    "noEmit": true
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowJs": true
   },
   "include": [
-    "src",
-    "../components/src"
-  ],
-  "references": [
-    {
-      "path": "../components"
-    }
+    "src"
   ]
 }
