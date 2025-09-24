@@ -1,5 +1,3 @@
 {
-  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider npm run build",
-  "outputDirectory": "packages/web/build",
-  "installCommand": null
+  "outputDirectory": "packages/web/build"
 }
